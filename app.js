@@ -16,5 +16,8 @@ exports.test = (req,res)=> {
     if(req.body.message == 'okokok') {
         returnMessage = 'ok ไรวะ'
     }
+    else {
+        returnMessage = 'Hello :)';
+    }
     res.status(200).send(returnMessage);
   }

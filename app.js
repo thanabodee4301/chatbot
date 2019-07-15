@@ -2,7 +2,7 @@
 const bodyParser = require('body-parser');
 const express = require('express');
 
-exports.test = (req,res)=> {
+exports.helloWorld = (req,res)=> {
     var returnMessage = "";
     if(req.body.message == 'hi') {
         returnMessage = 'Hello'

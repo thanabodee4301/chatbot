@@ -1,6 +1,3 @@
-'use strict';
-const bodyParser = require('body-parser');
-const express = require('express');
 
 exports.helloWorld = (req,res)=> {
     var returnMessage = "";
